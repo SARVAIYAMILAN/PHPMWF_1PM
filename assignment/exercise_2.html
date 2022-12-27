@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: blueviolet;
+}
+.main-content
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.my-profile 
+{
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    border-right: solid 2px lightgray;
+}
+
+.my-data 
+{
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    border-right: solid 2px lightgray;
+    text-align: left !important;
+}
+
+.edit-experience
+{
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    text-align: left !important;
+}
+
+input[type="button"]
+{
+
+    margin-left: 30%;
+    height: 10%;
+    width: 100px;
+    border-radius: 10%;
+    background-color: blueviolet;
+}
+h1
+{
+    padding-top: 0px;
+    overflow-x: hidden;
+}
+h3
+{
+    padding-top: 0px;
+}
+
+input[type="text"] 
+   {
+    width: 150px;
+    height: auto;
+    padding: 5px;
+   }
+    
+input[type="number"]
+{
+    width: 300px;
+    height: auto;
+    padding: 3px;
+
+}
+input[type="textb"]
+{
+    width: 300px;
+    height: auto;
+    padding:3px;
+}
+
+</style>
+<body>
+    <div class="main-content">
+
+        <div class="my-profile">
+            <address>
+             <center>   
+            <img src="https://images.pexels.com/photos/590029/pexels-photo-590029.jpeg?auto=compress&cs=tinysrgb&w=600" style="border-radius: 50%; width: 180px; height: 180px;">
+            <p><b>ammsaloney</b></p>
+            <p>ammley12@bbb.com</p>
+            </center>
+            </address>
+        </div>
+        
+        
+        <div class="my-data">
+            <h3>profile setting</h3>
+            <table width="100%" border="0">
+                <tr>
+                    <th>
+                        <b>Name :</b><br>
+                        <input class="Name" type="text" placeholder="First Name *" required>
+                      <label class="Firstlable"></label> 
+                    </th>
+                 
+                   <th>
+                     <b>Surname :</b><br>
+                     <input class="Name" type="text"   placeholder="Last Name *" required>
+                     <label class="Firstlable"></label> 
+                    </th>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <b>phone no :</b><br>
+                        <input class="abc" type="number" placeholder="9664831896 *" required>
+                        <label class="secondtabel"></label>
+                    </th>
+                </tr>   
+                
+                <tr>
+                    <th>
+                        <b>address :</b><br>
+                        <input class="abc" type="textb" placeholder="address *" required>
+                        <label class="secondtable"></label>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <b>Email-Id :</b><br>
+                        <input class="abc" type="textb" placeholder="enter email-id *" required>
+                        <label class="secondtable"></label>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <b>Education :</b><br>
+                        <input class="abc" type="textb" placeholder="quelifacation *" required>
+                        <label class="secondtable"></label>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <b>country :</b><br>
+                        <input class="abc" type="text" placeholder="country *" required>
+                        <label class="firsttable"></label>
+                    </th>
+                    <th>
+                        <b>stat/region :</b><br>
+                        <input class="abc" type="text" placeholder="stat *"required>
+                        <label class="firstlabel"></label>
+                    </th>
+                </tr>
+                
+            </table>
+            <br>
+            <input type="button" name="submit" value="save profile">
+
+        </div>
+
+
+        
+        <div class="edit-experience">
+            <table width="100%" border="0">
+                <tr>
+                <h4 align="left">Edit experiance</h4>
+               </tr>
+               <tr>
+                <td align="right"><button type="button" id="btn">Experience</button></td>
+               </tr>
+           
+               <tr>
+                <th>Exerince in desiging</th>
+                </tr>
+                <tr>
+                <td align="left"><input type="text" name="designning" placeholder="Experience in designing *"></td>
+               </tr>
+
+                
+               <tr>
+                <th>Total Experience</th>
+                </tr>
+                <tr>
+                <td align="left"><input type="text" name="designning" placeholder="Totals experience *"></td>
+               </tr>
+           
+               </table>
+
+        </div>
+                
+    </div>
+    
+    
+</body>
+</html>
