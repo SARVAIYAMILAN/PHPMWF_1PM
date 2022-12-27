@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+
+        overflow-x: hidden;
+        background-color: white;
+
+    }
+    .form
+    {
+        width: 50%; 
+        margin: auto;
+        padding: 10px;
+        height: auto;
+        border: inset 2px black;
+        background-color: greenyellow;
+        margin-top: 3%;
+        
+    }
+    ::placeholder
+    {
+        color: black;
+        align-items: center;
+        background-color: whitesmoke;
+        text-align: center;
+        opacity: .5;
+        
+        
+    }
+    table 
+    {
+        margin: 10px !important;
+        padding: 15px;
+    }
+    .box
+    {
+    
+        border: solid 1px white !important;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        color: black;
+        padding: 5px;
+        margin-left: 5%;
+        background-color: yellowgreen;
+        border-radius: 10px;
+        margin-top: 2%;
+
+    }
+    .line
+    {
+        
+        border: solid 2px white;
+        border-radius: calc(5px);
+        height: auto;
+        color: black;
+        padding: 5px;
+    
+        
+        
+    }
+    input[type="text"],textarea
+    {
+        width: 80%;
+        height: auto;
+        margin: 15px;
+        padding: 10px;
+        margin-top: 2%;
+    }
+    input[type="submit"]
+    {
+        background-color: sienna !important;
+        width: 30%;
+        height: auto;
+        margin: 25px;
+        padding: 10px;
+        margin-left: 35%;
+        margin-top: 2%;
+        border-radius: 15px;
+        color: white;
+        border: none;
+
+
+    }
+   
+</style>
+<body>
+    
+    <form>
+        <div class="box">
+
+
+            <h3>step 1 : your details</h3>
+            <br>
+            <div class="line 1">
+            <label>first name :</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="first name & last name"  name="uname" required>
+            </div>
+            <br><br> 
+            <div class="line 2">  
+            <label>email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="" placeholder ="example@gmail.com" required>
+            </div>
+            <br><br>
+            <div class="line 3">
+            <label>phone :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="" placeholder="+919664831896" required>
+            </div>
+            <br><br>
+            <h3>step 2 : delivery address</h3>
+            <br>
+            <div class="line 4">
+            <label>address</label>
+            <textarea name="address" placeholder=""cols="" rows="" aria-expanded="false"></textarea>
+            </div>
+            <br><br>
+            <div class="line 5">
+            <label for="">post code</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="123-456">
+            </div>
+            <br><br>
+            <div class="line 6">             
+            <label>country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="">    
+            </div>    
+            <br><br>
+            <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            <h3>step 3 : card detail</h3>  
+            <br>
+            <div class="line 7">
+            <label>card type</label>
+            <input type="radio" name="card" value="visa">Visa 
+            <input type="radio" name="card" value="amex">amex
+            <input type="radio" name="card" value="mastercard">mastercard   
+            </div>  
+            <div class="line 8">
+                <label>card Number</label>
+                <input type="text" name="cardnumber" placeholder="1234-4567-7890">
+            </div>
+
+            <div class="line 9">
+                <label>security code</label>
+                <input type="text" name="securitycode" placeholder="">
+            </div>
+
+            <div class="line 10">
+                <label>name on card></label>
+                <input type="text" name="name on card" placeholder="exact name as on the card">
+            </div>
+
+            <div class="line">
+                <input type="submit" name="buyit!" value="buyit!">
+
+            </div>
+
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
