@@ -1,0 +1,146 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+img
+{
+    height: 90px;
+    width: 100px;
+    margin-right: 15%;
+}
+.navbar
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-brand
+{
+    color: blue;
+    margin-left: 10px;
+    animation:  2s animate__tada;
+}
+.navbar-link li
+{
+    display:inline-block;
+    padding: 0px 10px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.navbar-link li a
+{
+    text-decoration: none;
+    color: white;
+
+} 
+
+/* *::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #090909; */
+   /* height: 100vh;
+  display: flex;
+   justify-content: center;
+  align-items: center; 
+   padding: 3rem; 
+  margin: 0;
+  padding: 0;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+img
+{
+    height: 90px;
+    width: 100px;
+    margin-right: 15%;
+}
+
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  /* width: 100%;  */
+  /* height: auto;
+  margin: 0;
+  padding: 0;
+
+}
+.navbar-brand
+{
+    color: blue;
+    margin-left: 10px;
+    animation:  2s animate__tada;
+}
+nav .logo {
+  font-weight: 700;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.navbar-link li
+{
+    display:inline-block;
+    padding: 0px 10px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  color: white;
+
+}
+
+nav #toggle,
+nav label {
+  display: none;
+}
+
+@media (max-width: 40.625em) {
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer;
+  }
+  nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
+} */
