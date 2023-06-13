@@ -1,0 +1,2 @@
+<!-- What is the difference between prop and attr?  -->
+prop() method provides a way to explicitly retrieve property values, while . attr() retrieves attributes. For example, selectedIndex, tagName, nodeName , nodeType , ownerDocument , defaultChecked , and defaultSelected should be retrieved and set with the . prop() method
