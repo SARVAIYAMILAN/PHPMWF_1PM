@@ -46,28 +46,6 @@ class Controller extends Model
             }
         }
 
-        // if(isset($_POST["update"]))
-        // {
-        //     $id=$_SESSION["id"];
-        //     $fnm=$_POST["fullName"];
-        //     $em=$_POST["email"];
-        //     $phone=$_POST["phone"];
-        //  // upload photo or images or file
-        //     // $tmp_name=$_FILES["image"]["tmp_name"];
-        //     // $path="uploads/registerusers/".$_FILES["image"]["name"];
-        //     // move_uploaded_file($tmp_name,$path);
-
-        //     $chk=$this->updatedata('register_user',$fnm,$em,$phone,'id',$id);
-        //         if($chk)
-        //         {
-        //             echo "<script>
-        //             alert('Your Profile Update Successfully')
-        //             window.location='manageprofile';
-        //             </script>";
-        //         }
-        // }
-
-
         //  //update profile data here
         if (isset($_POST["update"])) {
             $id = $_SESSION["id"];
